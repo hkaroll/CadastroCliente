@@ -33,7 +33,7 @@ Este é um projeto web moderno de cadastro de clientes desenvolvido com HTML, CS
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/cadastro-clientes.git
+   git clone https://github.com/hkaroll/CadastroCliente.git
    ```
 
 2. Navegue até o diretório do projeto:
