@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #4a6cf7;
+    --secondary-color: #6c757d;
+    --background-light: #f8fafc;
+}
+
+body {
+    background-color: var(--background-light);
+    color: #333;
+}
+
+.container-custom {
+    max-width: 1000px;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.table-clients {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table-clients thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.table-clients th {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 15px;
+}
+
+.table-clients tbody tr {
+    transition: all 0.3s ease;
+}
+
+.table-clients tbody tr:hover {
+    background-color: rgba(74, 108, 247, 0.05);
+    transform: translateY(-3px);
+}
+
+.form-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border-color: #e1e5eb;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(74, 108, 247, 0.1);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3a55c4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(74, 108, 247, 0.3);
+}
+
+.section-title {
+    color: var(--primary-color);
+    margin-bottom: 24px;
+    font-weight: 700;
+}
