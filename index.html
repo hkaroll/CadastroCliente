@@ -10,6 +10,18 @@
 </head>
 <body class="py-5">
     <div class="container container-custom">
+        <!-- Seção de Filtro -->
+        <div class="card card-custom mb-4 p-3">
+            <div class="row">
+                <div class="col-md-6 mb-2">
+                    <input type="text" id="filtroClientes" class="form-control" placeholder="Buscar cliente...">
+                </div>
+                <div class="col-md-6 text-end">
+                    <button id="limparFiltro" class="btn btn-secondary">Limpar Filtro</button>
+                </div>
+            </div>
+        </div>
+
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="card card-custom table-clients mb-4">
@@ -21,16 +33,10 @@
                                     <th>Data de Nascimento</th>
                                     <th>E-mail</th>
                                     <th>Endereço</th>
+                                    <th>Ações</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>João Silva</td>
-                                    <td>15/03/1990</td>
-                                    <td>joao.silva@gmail.com</td>
-                                    <td>Avenida Principal, 123 - São Paulo, SP</td>
-                                </tr>
-                            </tbody>
+                            <tbody id="corpoTabelaClientes"></tbody>
                         </table>
                     </div>
                 </div>
@@ -38,9 +44,10 @@
                 <div class="card card-custom form-section">
                     <div class="card-body">
                         <h2 class="text-center section-title mb-4">
-                            <i class="bi bi-person-add me-2"></i>Adicionar Novo Cliente
+                            <i class="bi bi-person-add me-2"></i><span id="tituloFormulario">Adicionar Novo Cliente</span>
                         </h2>
                         <form id="formularioCadastro" class="needs-validation" novalidate>
+                            <input type="hidden" id="clienteId">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <label for="nome" class="form-label">Primeiro Nome</label>
@@ -76,6 +83,9 @@
                             <div class="text-center mt-4">
                                 <button type="button" id="botaoCadastrar" class="btn btn-primary">
                                     <i class="bi bi-save me-2"></i>Salvar Cliente
+                                </button>
+                                <button type="button" id="botaoCancelar" class="btn btn-secondary ms-2" style="display:none;">
+                                    <i class="bi bi-x-circle me-2"></i>Cancelar
                                 </button>
                             </div>
                         </form>
