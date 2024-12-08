@@ -1,148 +1,140 @@
-📋 Sistema de Gerenciamento de Clientes
-🚀 Visão Geral do Projeto
+# 📋 Sistema de Gerenciamento de Clientes
+
+## 🚀 Visão Geral do Projeto
+
 Um sistema web de gerenciamento de clientes avançado, desenvolvido com HTML5, CSS3, Bootstrap 5 e JavaScript Vanilla, oferecendo uma solução completa e moderna para cadastro e administração de dados de clientes.
 
 ![Captura de Tela do Projeto](/img/projeto.png)
 
-✨ Recursos Principais
+## ✨ Recursos Principais
 
-📊 Tabela dinâmica de clientes com operações CRUD completas
-🔍 Sistema de busca e filtragem avançado
-💾 Persistência de dados local com localStorage
-📝 Formulário de cadastro interativo com validação em tempo real
-🎨 Design responsivo e moderno com interface intuitiva
-✏️ Edição e exclusão de clientes em um clique
+- 📊 Tabela dinâmica de clientes com operações CRUD completas
+- 🔍 Sistema de busca e filtragem avançado
+- 💾 Persistência de dados local com localStorage
+- 📝 Formulário de cadastro interativo com validação em tempo real
+- 🎨 Design responsivo e moderno com interface intuitiva
+- ✏️ Edição e exclusão de clientes em um clique
 
-🛠 Tecnologias e Padrões Utilizados
-Frontend
+## 🛠 Tecnologias e Padrões Utilizados
 
-Linguagens:
+### Frontend
+- **Linguagens**: 
+  - HTML5
+  - CSS3
+  - JavaScript (ES6+)
+- **Frameworks/Bibliotecas**:
+  - Bootstrap 5
+  - Bootstrap Icons
 
-HTML5
-CSS3
-JavaScript (ES6+)
+### Padrões de Desenvolvimento
+- Programação Orientada a Objetos (POO)
+- Design responsivo
+- Validação de formulários
+- Manipulação do DOM
+- Armazenamento local (localStorage)
 
+## 📦 Instalação e Configuração
 
-Frameworks/Bibliotecas:
+### Pré-requisitos
 
-Bootstrap 5
-Bootstrap Icons
+- Navegador web moderno com suporte a ES6
+- Conexão à internet para recursos externos
+- Conhecimentos básicos de JavaScript
 
+### Passos de Instalação
 
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/cadastro-clientes.git
+   ```
 
-Padrões de Desenvolvimento
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd cadastro-clientes
+   ```
 
-Programação Orientada a Objetos (POO)
-Design responsivo
-Validação de formulários
-Manipulação do DOM
-Armazenamento local (localStorage)
+3. Abra o arquivo `index.html` em seu navegador
 
-📦 Instalação e Configuração
-Pré-requisitos
+## 🔧 Funcionalidades Avançadas
 
-Navegador web moderno com suporte a ES6
-Conexão à internet para recursos externos
-Conhecimentos básicos de JavaScript
+### Gerenciamento de Clientes
+- Cadastro de novos clientes
+- Edição de informações de clientes existentes
+- Exclusão de clientes com confirmação
+- Persistência de dados no localStorage
 
-Passos de Instalação
+### Sistema de Busca e Filtro
+- Busca em tempo real por:
+  - Nome
+  - E-mail
+  - Endereço
+- Limpeza rápida de filtros
 
-Clone o repositório:
-bashCopygit clone https://github.com/hkaroll/CadastroCliente
+### Validação de Formulário
+- Validação de campos obrigatórios
+- Feedback visual para campos inválidos
+- Prevenção de submissão de formulários incompletos
 
-Navegue até o diretório do projeto:
-bashCopycd cadastro-clientes
+## 💡 Fluxo de Utilização
 
-Abra o arquivo index.html em seu navegador
+1. Preencha o formulário de cadastro
+2. Clique em "Salvar Cliente"
+3. Cliente é adicionado automaticamente à tabela
+4. Utilize os botões de edição e exclusão conforme necessário
+5. Use a barra de busca para encontrar clientes específicos
 
-🔧 Funcionalidades Avançadas
-Gerenciamento de Clientes
+## 🎨 Detalhes de Design
 
-Cadastro de novos clientes
-Edição de informações de clientes existentes
-Exclusão de clientes com confirmação
-Persistência de dados no localStorage
+### Paleta de Cores
+- **Primária**: `#4a6cf7` (Azul vibrante)
+- **Secundária**: `#6c757d` (Cinza neutro)
+- **Fundo**: `#f8fafc` (Branco gelo)
 
-Sistema de Busca e Filtro
+### Responsividade
+- Layout adaptável para:
+  - Desktops
+  - Tablets
+  - Smartphones
+- Breakpoints do Bootstrap
+- Design mobile-first
 
-Busca em tempo real por:
+## 🔒 Segurança e Validações
 
-Nome
-E-mail
-Endereço
+- Validação de campos obrigatórios
+- Verificação de formato de e-mail
+- Proteção contra dados incompletos
+- Armazenamento seguro no localStorage
 
+## 🚧 Roadmap de Desenvolvimento
 
-Limpeza rápida de filtros
+- [x] Implementar persistência de dados
+- [x] Adicionar opção de edição de clientes
+- [x] Criar recurso de exclusão de clientes
+- [x] Implementar filtros e busca
+- [ ] Integração com backend
+- [ ] Autenticação de usuários
+- [ ] Exportação de dados
 
-Validação de Formulário
+## 🤝 Contribuições
 
-Validação de campos obrigatórios
-Feedback visual para campos inválidos
-Prevenção de submissão de formulários incompletos
-
-💡 Fluxo de Utilização
-
-Preencha o formulário de cadastro
-Clique em "Salvar Cliente"
-Cliente é adicionado automaticamente à tabela
-Utilize os botões de edição e exclusão conforme necessário
-Use a barra de busca para encontrar clientes específicos
-
-🎨 Detalhes de Design
-Paleta de Cores
-
-Primária: #4a6cf7 (Azul vibrante)
-Secundária: #6c757d (Cinza neutro)
-Fundo: #f8fafc (Branco gelo)
-
-Responsividade
-
-Layout adaptável para:
-
-Desktops
-Tablets
-Smartphones
-
-
-Breakpoints do Bootstrap
-Design mobile-first
-
-🔒 Segurança e Validações
-
-Validação de campos obrigatórios
-Verificação de formato de e-mail
-Proteção contra dados incompletos
-Armazenamento seguro no localStorage
-
-🚧 Roadmap de Desenvolvimento
-
- Implementar persistência de dados
- Adicionar opção de edição de clientes
- Criar recurso de exclusão de clientes
- Implementar filtros e busca
- Integração com backend
- Autenticação de usuários
- Exportação de dados
-
-🤝 Contribuições
 Contribuições são bem-vindas! Por favor, siga estas etapas:
 
-Faça um fork do projeto
-Crie uma branch para sua feature (git checkout -b feature/nova-feature)
-Commit suas mudanças (git commit -m 'Adiciona nova feature')
-Push para a branch (git push origin feature/nova-feature)
-Abra um Pull Request
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
-👥 Autora
-Karoll Reis
+## 👥 Autora
 
-🌐 GitHub: @hkaroll
-💼 LinkedIn: Karoll Reis
+**Karoll Reis**
+- 🌐 GitHub: [@hkaroll](https://github.com/hkaroll)
+- 💼 LinkedIn: [Karoll Reis](https://www.linkedin.com/in/karollreis/)
 
-📜 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+---
 
-💌 Feedback
-Problemas, sugestões ou dúvidas?
-👉 Abra uma issue no GitHub
-👉 Envie uma mensagem no LinkedIn
+### 💌 Feedback
+
+Problemas, sugestões ou dúvidas? 
+👉 [Abra uma issue no GitHub](https://github.com/seu-usuario/cadastro-clientes/issues)
+👉 [Envie uma mensagem no LinkedIn](https://www.linkedin.com/in/karollreis/)
